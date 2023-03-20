@@ -32,9 +32,7 @@ export const ContextProvider = ({ children }) => {
         themeSettings,
         setThemeSettings,
       }}
-    >
-      {children}
-    </StateContext.Provider>
+    ></StateContext.Provider>
   );
 };
 
