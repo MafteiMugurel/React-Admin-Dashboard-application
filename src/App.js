@@ -21,10 +21,11 @@ import {
   Editor,
   Line,
 } from "./pages";
-
 import "./App.css";
+import { useStateContext } from "./contexts/ContextProvider";
 
 const App = () => {
+  const { themeSettings } = useStateContext();
   const activeMenu = true;
   return (
     <div>
